@@ -1,0 +1,79 @@
+.box
+{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+
+}
+ul {
+    background-color: rgb(240, 208, 163);
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text span {
+    background-color: red;
+    padding: 0px 10px 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(96, 95, 95);
+    }
+}
+.text  li {
+    background-color: bisque;
+    padding: 10px ;
+    margin-top: 10px ;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow:auto;
+    width: 80%;
+
+}
+.field 
+{
+    background-color: rgb(27, 198, 207);
+    padding: 20px 0 20px ;
+    margin-top: -10px;
+}
+input  {  
+    width: 80%;
+    padding: 20px;
+    border: none;
+    caret-color: rgb(249, 188, 46);
+    background-color: rgba(214, 236, 238, 0.97);
+    border-radius: 30px 5px;
+    color: rgb(8, 163, 163);
+    display:block ; 
+    margin: auto;
+}
+input:focus {
+outline: none;    
+}
+button {
+    margin: 20px 0  10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    background-color: red;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(115, 107, 107);
+    transform: scale(0.9);
+}
+
+.done {
+    background-color: rgb(128, 240, 100);
+    text-decoration: line-through;
+}
